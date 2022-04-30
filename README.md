@@ -97,7 +97,8 @@ https://docs.google.com/spreadsheets/d/1uyNWhry767kxWGf87YFPNGWLwunnpXS5vRqNqAVH
 
 | Column   | Type      | Options     |
 | ---------| --------- | ----------- |
-| tag_name     | string    |null: false, foreign_key: true|
+| text     | text   |null: false|
+| user_id  | references|null: false, foreign_key: true|
 
 ### Association
 
